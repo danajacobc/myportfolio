@@ -8,21 +8,21 @@ const AboutMeContent = () => {
     <motion.div
     initial="hidden"
     animate="visible"
-    className="flex flex-row items-center justify-center w-full z-[20] p-6 gap-2 font-mont font-bold">
+    className="flex flex-row items-center justify-center z-[20] font-bold">
 
-        <div className='h-full w-full flex flex-col gap-5 justify-center m-auto text-start'>
-            <motion.div
-            variants={slideInFromTop}
-            className='w-[400px] py-[15px] px-[4px]'>
-            <img src={principal} className='rounded-full h-64 w-64'/>
-            </motion.div>
+        <div className='flex flex-col gap-5 justify-center text-start'>
             <motion.p
             variants={slideInFromLeft(0.8)}
-            className="text-lg text-white my-5 max-w-[600px]">
-                Soy Desarrolladora Full-Stack, y te invito a que veas los proyectos que he realizado...
+            className="text-lg text-white max-w-[600px]">
+                Soy Desarrolladora Full-Stack, y te invito a que veas los proyectos en los que trabaje...
             </motion.p>
         </div>
-        <img src={perfil} className='h-80 w-80'/>
+        <motion.div
+            variants={slideInFromTop}
+            className='relative'>
+            <img src={perfil} className='h-80 w-80'/>
+            <img src={principal} className='absolute left-52 top-52 rounded-full h-56 w-56'/>
+            </motion.div>
     </motion.div>
   )
 };

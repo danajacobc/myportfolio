@@ -1,15 +1,27 @@
+import "./app.scss"
 // Components //
 import StarsCanvas from './components/StarsBackground/StarsBackground';
 import AboutMe from './views/AboutMe/AboutMe';
-import Navbar from './views/Navbar/Navbar';
+import Navbar from './components/Navbar/Navbar';
 
 
 function App() {
   return (
-    <div className='h-full min-w-full flex flex-col items-center bg-black'>
+    <div className='flex flex-col items-center'>
       <StarsCanvas />
-      <Navbar />
-      <AboutMe />
+      <section>
+        <Navbar />
+        <AboutMe />
+      </section>
+      <section>
+        Habilidades
+      </section>
+      <section>
+        Proyectos
+      </section>
+      <section>
+        Contacto
+      </section>
     </div>
   )
 }
