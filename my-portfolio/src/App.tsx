@@ -3,6 +3,7 @@ import "./app.scss"
 import StarsCanvas from './components/StarsBackground/StarsBackground';
 import AboutMe from './views/AboutMe/AboutMe';
 import Navbar from './components/Navbar/Navbar';
+import Skills from "./components/Skills/Skills";
 
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
         <AboutMe />
       </section>
       <section>
-        Habilidades
+        <Skills />
       </section>
       <section>
         Proyectos

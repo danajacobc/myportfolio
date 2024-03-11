@@ -8,13 +8,18 @@ const AboutMeContent = () => {
     <motion.div
     initial="hidden"
     animate="visible"
-    className="flex flex-row items-center justify-center z-[20] font-bold">
+    className="flex flex-row w-[100vw] items-center justify-center z-[20]">
 
         <div className='flex flex-col gap-5 justify-center text-start'>
             <motion.p
-            variants={slideInFromLeft(0.8)}
+            variants={slideInFromLeft(0.5)}
+            className="text-white max-w-[600px] font-bold text-xl">
+                ¡Hola! Mi nombre es Dana.
+            </motion.p>
+            <motion.p
+            variants={slideInFromLeft(0.5)}
             className="text-lg text-white max-w-[600px]">
-                Soy Desarrolladora Full-Stack, y te invito a que veas los proyectos en los que trabaje...
+                Soy Desarrolladora Full-Stack, y te invito a que conozcas un poco sobre mi y mi trabajo...
             </motion.p>
         </div>
         <motion.div
