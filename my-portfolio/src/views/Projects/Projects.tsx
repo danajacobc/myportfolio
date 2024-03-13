@@ -1,4 +1,5 @@
 import ProjectsCard from "../../components/Projects/ProjectsCard"
+import { MyProjects, projectsArray } from '../../utils/projects';
 
 const Projects = () => {
   return (
@@ -6,7 +7,14 @@ const Projects = () => {
         <div className="flex flex-col justify-center items-center font-bold text-xl ">
            <a className='text-white'>Mis Proyectos</a>
         </div>
-        <ProjectsCard />
+        {
+        projectsArray.length > 0 ? (
+            projectsArray.map((pj) => 
+            <ProjectsCard project={pj}/>
+            )
+        ) : <a>Loading projects...</a>
+        
+        }
     </div>
   )
 }
