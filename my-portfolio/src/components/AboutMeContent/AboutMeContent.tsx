@@ -8,7 +8,7 @@ const AboutMeContent = () => {
     <motion.div
     initial="hidden"
     animate="visible"
-    className="flex flex-row h-80 mt-16 w-[100vw] items-center justify-center z-[20] gap-4">
+    className="flex flex-row w-[100vw] items-center justify-center z-[20] gap-4">
 
         <div className='flex flex-col gap-3 justify-center text-start'>
             <motion.p

@@ -3,7 +3,7 @@ import "./app.scss"
 import StarsCanvas from './components/StarsBackground/StarsBackground';
 import AboutMe from './views/AboutMe/AboutMe';
 import Navbar from './components/Navbar/Navbar';
-import Skills from "./components/Skills/Skills";
+import Skills from "./views/Skills/Skills";
 
 
 function App() {
