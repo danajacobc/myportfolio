@@ -4,6 +4,7 @@ import StarsCanvas from './components/StarsBackground/StarsBackground';
 import AboutMe from './views/AboutMe/AboutMe';
 import Navbar from './components/Navbar/Navbar';
 import Skills from "./views/Skills/Skills";
+import Projects from "./views/Projects/Projects";
 
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
         <Skills />
       </section>
       <section>
-        Proyectos
+        <Projects />
       </section>
       <section>
         Contacto
