@@ -5,6 +5,7 @@ import AboutMe from './views/AboutMe/AboutMe';
 import Navbar from './components/Navbar/Navbar';
 import Skills from "./views/Skills/Skills";
 import Projects from "./views/Projects/Projects";
+import ContactMe from "./views/ContactMe/ContactMe";
 
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
         <Projects />
       </section>
       <section>
-        Contacto
+        <ContactMe />
       </section>
     </div>
   )
