@@ -1,6 +1,4 @@
-import { useRef } from "react"
 import { MyProjects } from "../../utils/projects"
-import { motion } from "framer-motion";
 
 interface ProjectProps {
     project: MyProjects
