@@ -4,6 +4,18 @@ import principal from '../../assets/logo/principal.png';
 import perfil from '../../assets/perfil/p-1.jpg';
 
 const AboutMeContent = () => {
+
+  const downloadCV =  () => {
+    const link = document.createElement('a');
+
+    link.href = 'https://drive.google.com/file/d/1SUczjW2ofLHgbcI82FKTOcjVlKfV_Rmb/view?usp=drive_link';
+    link.target = '_blank';
+
+    document.body.appendChild(link);
+    
+    link.click();
+  }
+
   return (
     <motion.div
     initial="hidden"
@@ -26,7 +38,7 @@ const AboutMeContent = () => {
             <motion.div
               variants={slideInFromLeft(0.5)}
               className='flex justify-end mr-2'>
-              <button
+              <button onClick={downloadCV}
               className='bg-white text-black font-semibold p-3 rounded-sm hover:bg-gradient-to-tr from-[#E1A0E7] to-[#CD60D8]'>Descargar CV</button>
             </motion.div>
         </div>
