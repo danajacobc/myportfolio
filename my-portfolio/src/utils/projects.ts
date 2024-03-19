@@ -1,5 +1,21 @@
+// imagenes del proyecto
 import poke from '../assets/projects/pokemon.png'
 import tis from '../assets/projects/tis.png'
+import port from '../assets/logo/completo.png'
+// imagenes de las tecno
+import git from '../assets/skills/git.png'
+import node from '../assets/skills/node-js.png'
+import ts from '../assets/skills/typescript.png'
+import js from '../assets/skills/javascript.png'
+import reactImg from '../assets/skills/react.png'
+import reduxImg from '../assets/skills/redux.png'
+import angular from '../assets/skills/angular.png'
+import tailwind from '../assets/skills/tailwind.svg'
+import postgreSQL from '../assets/skills/postgre.png'
+import express from '../assets/skills/express-js.png'
+import sequelize from '../assets/skills/sequelize.png'
+import mySQL from '../assets/skills/mySQL.png'
+
 
 export interface MyProjects {
     id: number,
@@ -9,6 +25,7 @@ export interface MyProjects {
     github: string,
     link: string,
     deploy: string,
+    skills: string[],
 }
 
 export const projectsArray: MyProjects[] = [
@@ -16,10 +33,11 @@ export const projectsArray: MyProjects[] = [
         id: 1,
         name: 'Pokemon App',
         img: poke,
-        description: 'Single Page Application que tenía como objetivo poner en práctica recursos básicos UX/UI, afirmar y concretar conceptos adquiridos, mejorar prácticas y utilizar el workflow de GIT. En ella se podrán buscar pokemons, visualizar su información, filtrarlos, ordenarlos y crear nuevos pokemons.' ,
+        description: 'Single Page Application realizado como proyecto individual para poner en práctica conocimientos adquiridos.' ,
         github: 'https://github.com/danajacobc/PI-pokemon',
         link: 'https://youtu.be/AN7VSrtOmBc?si=GqUQDkj1zmTTSzAx',
         deploy: '',
+        skills: [js, node, reactImg, reduxImg, postgreSQL, express, sequelize, git],
     },
     {
         id: 2,
@@ -29,23 +47,18 @@ export const projectsArray: MyProjects[] = [
         github: 'https://github.com/danajacobc/TripInSight',
         link: 'https://youtu.be/oNFEe1YHrhA?si=BjPsA9yUH86AibyD',
         deploy: 'https://tripinsight-peb3.onrender.com/',
+        skills: [js, node, reactImg, reduxImg, express, sequelize, git, tailwind, mySQL],
+
     },
     {
         id: 3,
-        name: 'Proximamente',
+        name: 'Portfolio Personal',
         img: poke,
-        description: 'Single Page Application que tenía como objetivo poner en práctica recursos básicos UX/UI, afirmar y concretar conceptos adquiridos, mejorar prácticas y utilizar el workflow de GIT. En ella se podrán buscar pokemons, visualizar su información, filtrarlos, ordenarlos y crear nuevos pokemons.' ,
+        description: 'Desarrollo de mi portfolio personal.' ,
         github: 'https://github.com/danajacobc/PI-pokemon',
         link: 'https://youtu.be/AN7VSrtOmBc?si=GqUQDkj1zmTTSzAx',
         deploy: '',
-    },
-    {
-        id: 4,
-        name: 'Muy pronto',
-        img: tis,
-        description: 'Aplicación e-commerce con el objetivo de vender tours turísticos.' ,
-        github: 'https://github.com/danajacobc/TripInSight',
-        link: 'https://youtu.be/oNFEe1YHrhA?si=BjPsA9yUH86AibyD',
-        deploy: 'https://tripinsight-peb3.onrender.com/',
+        skills: [ts, reactImg, tailwind, git],
+
     },
 ]

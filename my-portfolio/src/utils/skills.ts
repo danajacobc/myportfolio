@@ -9,6 +9,7 @@ import sequelize from '../assets/skills/sequelize.png'
 import postgreSQL from '../assets/skills/postgre.png'
 import tailwind from '../assets/skills/tailwind.svg'
 import git from '../assets/skills/git.png'
+import mySQL from '../assets/skills/mySQL.png'
 
 
 export interface Skill {
@@ -60,5 +61,9 @@ export const skillsArray: Skill[] = [
 {
     name: "PostgreSQL",
     img: postgreSQL,
+},
+{
+    name: "MySQL",
+    img: mySQL,
 },
 ]
