@@ -8,7 +8,7 @@ export interface MyProjects {
     description: string,
     github: string,
     link: string,
-    deploy?: string,
+    deploy: string,
 }
 
 export const projectsArray: MyProjects[] = [
@@ -18,7 +18,8 @@ export const projectsArray: MyProjects[] = [
         img: poke,
         description: 'Single Page Application que tenía como objetivo poner en práctica recursos básicos UX/UI, afirmar y concretar conceptos adquiridos, mejorar prácticas y utilizar el workflow de GIT. En ella se podrán buscar pokemons, visualizar su información, filtrarlos, ordenarlos y crear nuevos pokemons.' ,
         github: 'https://github.com/danajacobc/PI-pokemon',
-        link: 'https://youtu.be/AN7VSrtOmBc?si=GqUQDkj1zmTTSzAx', 
+        link: 'https://youtu.be/AN7VSrtOmBc?si=GqUQDkj1zmTTSzAx',
+        deploy: '',
     },
     {
         id: 2,
@@ -27,7 +28,7 @@ export const projectsArray: MyProjects[] = [
         description: 'Aplicación e-commerce con el objetivo de vender tours turísticos.' ,
         github: 'https://github.com/danajacobc/TripInSight',
         link: 'https://youtu.be/oNFEe1YHrhA?si=BjPsA9yUH86AibyD',
-        deploy: 'https://tripinsight-peb3.onrender.com/'
+        deploy: 'https://tripinsight-peb3.onrender.com/',
     },
     {
         id: 3,
@@ -35,7 +36,8 @@ export const projectsArray: MyProjects[] = [
         img: poke,
         description: 'Single Page Application que tenía como objetivo poner en práctica recursos básicos UX/UI, afirmar y concretar conceptos adquiridos, mejorar prácticas y utilizar el workflow de GIT. En ella se podrán buscar pokemons, visualizar su información, filtrarlos, ordenarlos y crear nuevos pokemons.' ,
         github: 'https://github.com/danajacobc/PI-pokemon',
-        link: 'https://youtu.be/AN7VSrtOmBc?si=GqUQDkj1zmTTSzAx', 
+        link: 'https://youtu.be/AN7VSrtOmBc?si=GqUQDkj1zmTTSzAx',
+        deploy: '',
     },
     {
         id: 4,
@@ -44,6 +46,6 @@ export const projectsArray: MyProjects[] = [
         description: 'Aplicación e-commerce con el objetivo de vender tours turísticos.' ,
         github: 'https://github.com/danajacobc/TripInSight',
         link: 'https://youtu.be/oNFEe1YHrhA?si=BjPsA9yUH86AibyD',
-        deploy: 'https://tripinsight-peb3.onrender.com/'
+        deploy: 'https://tripinsight-peb3.onrender.com/',
     },
 ]

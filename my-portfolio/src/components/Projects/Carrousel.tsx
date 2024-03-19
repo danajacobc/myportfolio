@@ -15,26 +15,25 @@ const Carrousel = () => {
         setCurrentProject((prev) => (prev - 1 + projectsArray.length) % projectsArray.length);
     };
 
+    const currentProjectData = projectsArray[currentProject];
+
   return (
     <div className="relative bg-red-600 w-full gap-5">
         <div
          className="flex transition-transform duration-300 ease-in-out transform"
          style={{
-           width: `${projectsArray.length * 100}%`,
-           transform: `translateX(-${currentProject * (100 / projectsArray.length)}%)`,
+           width: `${100}%`,
+           transform: `translateX(0)`,
          }}>
         {
-          projectsArray.length > 0 ? (
-            projectsArray.map((pj) => 
-            { 
-              return (
+          currentProjectData ? (
+              
              
-              <ProjectsCard key={pj.id} project={pj}/>
+              <ProjectsCard key={currentProjectData.id} project={currentProjectData}/>
              
-            )
-          }
-            )
-            ) : <a>Loading projects...</a>
+            
+          )
+          : <a>Loading projects...</a>
             
           }
         </div>
