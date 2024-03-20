@@ -1,7 +1,6 @@
 // imagenes del proyecto
 import poke from '../assets/projects/pokemon.png'
 import tis from '../assets/projects/tis.png'
-import port from '../assets/logo/completo.png'
 // imagenes de las tecno
 import git from '../assets/skills/git.png'
 import node from '../assets/skills/node-js.png'

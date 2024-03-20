@@ -36,8 +36,8 @@ const Carrousel = () => {
           : <a>Loading projects...</a>
             
           }
-        </div>
-        <div>
+          </div>
+          <div>
             <button
               className="absolute top-1/2 left-0 transform -translate-y-1/2 px-4 py-2 mx-4 rounded-full bg-gradient-to-br from-[#E1A0E7] to-[#AC48B5] hover:bg-gradient-to-tr transition hover:duration-300 hover:scale-110 ease-in-out h-16 w-16"
               onClick={prevProject}
@@ -50,7 +50,7 @@ const Carrousel = () => {
             >
               <img src={arrowr} className="h-10 w-10 invert"/>
             </button>
-            </div>
+          </div>
         </div>
   )
 }

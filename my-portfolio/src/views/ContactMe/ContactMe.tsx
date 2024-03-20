@@ -1,3 +1,5 @@
+import FormContact from "../../components/ContactMe/FormContact";
+import logo from '../../assets/logo/principal.png'
 
 const ContactMe = () => {
   return (
@@ -5,10 +7,15 @@ const ContactMe = () => {
         <div className="flex flex-col justify-center items-center font-bold text-xl">
            <h1 className='bg-gradient-to-tr from-[#E1A0E7] to-[#CD60D8] text-transparent bg-clip-text'>Contacto</h1>
         </div>
-        <form>
-            <input placeholder="Ingrese su email"/>
-            <input placeholder="Ingrese su mensaje"/>
-        </form>
+        <div className="flex flex-row justify-center items-center gap-8">
+          <div className="w-1/2 flex flex-col justify-center items-center gap-8">
+            <h3>¡Trabajemos juntos!</h3>
+            <img src={logo} className="h-48 w-48"/>
+          </div>
+          <div className="w-1/2">
+            <FormContact />
+          </div>
+        </div>
     </div>
   )
 }
