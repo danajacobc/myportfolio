@@ -29,6 +29,17 @@ export interface MyProjects {
 
 export const projectsArray: MyProjects[] = [
     {
+        id: 2,
+        name: 'Trip In Sight',
+        img: tis,
+        description: 'Aplicación e-commerce con el objetivo de vender tours turísticos, realizada para poner en práctica conocimientos adquiridos junto con un equipo de desarrolladores.' ,
+        github: 'https://github.com/danajacobc/TripInSight',
+        link: 'https://youtu.be/oNFEe1YHrhA?si=BjPsA9yUH86AibyD',
+        deploy: 'https://tripinsight-peb3.onrender.com/',
+        skills: [js, node, reactImg, reduxImg, express, sequelize, git, tailwind, mySQL],
+        
+    },
+    {
         id: 1,
         name: 'Pokemon App',
         img: poke,
@@ -37,17 +48,6 @@ export const projectsArray: MyProjects[] = [
         link: 'https://youtu.be/AN7VSrtOmBc?si=GqUQDkj1zmTTSzAx',
         deploy: '',
         skills: [js, node, reactImg, reduxImg, postgreSQL, express, sequelize, git],
-    },
-    {
-        id: 2,
-        name: 'Trip In Sight',
-        img: tis,
-        description: 'Aplicación e-commerce con el objetivo de vender tours turísticos.' ,
-        github: 'https://github.com/danajacobc/TripInSight',
-        link: 'https://youtu.be/oNFEe1YHrhA?si=BjPsA9yUH86AibyD',
-        deploy: 'https://tripinsight-peb3.onrender.com/',
-        skills: [js, node, reactImg, reduxImg, express, sequelize, git, tailwind, mySQL],
-
     },
     {
         id: 3,

@@ -12,17 +12,17 @@ function App() {
   return (
     <div className='flex flex-col items-center'>
       <StarsCanvas />
-      <section>
+      <section id="aboutme">
         <Navbar />
         <AboutMe />
       </section>
-      <section>
+      <section id="skills">
         <Skills />
       </section>
-      <section>
+      <section id="projects">
         <Projects />
       </section>
-      <section>
+      <section id="contact">
         <ContactMe />
       </section>
     </div>

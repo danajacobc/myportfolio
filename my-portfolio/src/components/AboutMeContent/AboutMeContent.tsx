@@ -13,7 +13,7 @@ const AboutMeContent = () => {
     animate="visible"
     className="flex flex-row w-[100vw] items-center justify-center gap-4">
 
-        <div className='flex flex-col gap-3 justify-center text-start'>
+        <div className='flex flex-col justify-center text-start'>
             <motion.p
             variants={slideInFromLeft(0.5)}
             className="max-w-[600px] font-bold text-3xl text-white">
@@ -21,9 +21,11 @@ const AboutMeContent = () => {
             </motion.p>
             <motion.p
             variants={slideInFromLeft(0.5)}
-            className="text-lg text-white max-w-[600px] ">
-              <p><a className='font-semibold bg-gradient-to-tr from-[#E1A0E7] to-[#CD60D8] text-transparent bg-clip-text'>Desarrolladora Full-Stack</a>, y te invito a que conozcas un poco sobre mi y mi trabajo... </p> 
-              <p>Algo que me gusta de mi, es que naturalmente me adapto a diversos entornos y tengo facilidad para conectar con las personas. Esto me permite trabajar muy bien en equipo, siempre buscando el equilibrio entre las necesidades de las personas y los objetivos del proyecto. 💪🏻</p> 
+            className="text-lg text-white max-w-[600px]">
+              <h2 className='font-bold text-2xl bg-gradient-to-tr from-[#E1A0E7] to-[#CD60D8] text-transparent bg-clip-text'>Desarrolladora Full-Stack</h2>
+              <p>Te invito a que conozcas un poco sobre mi y mi trabajo... </p>
+              <p>Mi curiosidad e inquietud me impulsan a buscar nuevas habilidades y tecnologías en el mundo del desarrollo web, lo cual me ha permitido trabajar en proyectos tanto Back-End como Front-End.</p>
+              <p>Me adapto a diversos entornos y tengo facilidad para conectar con la gente, lo cual me permite trabajar muy bien en equipo, siempre buscando el equilibrio entre las necesidades de las personas y los objetivos del proyecto. 💪🏻</p> 
               <p>🪄 ❤️ La atención a los detalles y mi amor por la estética me llevan a buscar la perfección en la funcionalidad y el diseño, encontrando la armonía entre ambos.</p>
             </motion.p>
             <motion.div
@@ -35,7 +37,7 @@ const AboutMeContent = () => {
         </div>
         <motion.div
             variants={slideInFromTop}
-            className='relative'>
+            className='relative flex flex-col bottom-10'>
             <img src={perfil} className='rounded-r-full rounded-t-full h-80 w-80'/>
             <img src={principal} className='absolute left-52 top-52 rounded-full h-56 w-56'/>
         </motion.div>
