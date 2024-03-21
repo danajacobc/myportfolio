@@ -10,19 +10,19 @@ import ContactMe from "./views/ContactMe/ContactMe";
 
 function App() {
   return (
-    <div className='flex flex-col items-center'>
+    <div className='flex flex-col justify-center items-center'>
       <StarsCanvas />
       <section id="aboutme">
         <Navbar />
         <AboutMe />
       </section>
-      <section id="skills">
+      <section id="skills" className='flex flex-col justify-center items-center'>
         <Skills />
       </section>
-      <section id="projects">
+      <section id="projects" className='flex flex-col justify-center items-center'>
         <Projects />
       </section>
-      <section id="contact">
+      <section id="contact" className='flex flex-col justify-center items-center'>
         <ContactMe />
       </section>
     </div>
