@@ -37,7 +37,7 @@ const Skills = () => {
 
   return (
     <div ref={skillsRef} className="skills-section">
-    <div className="flex flex-col justify-center items-center p-4 gap-5">
+    <div className="flex flex-col justify-center items-center gap-5">
         <div className="flex flex-col justify-center items-center font-bold text-2xl ">
            <h1 className='bg-gradient-to-tr from-[#E1A0E7] to-[#CD60D8] text-transparent bg-clip-text'>Tecnologías</h1>
         </div>
@@ -46,7 +46,7 @@ const Skills = () => {
         variants={container}
         initial="hidden"
         animate="visible" 
-        className="container flex flex-wrap justify-center items-center grid-cols-4 gap-5 skills-container">
+        className="container flex flex-wrap justify-center items-center grid-cols-4 gap-3 skills-container">
             {
               skillsArray.length > 0 ? (
               skillsArray.map((sk) =>
