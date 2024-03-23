@@ -2,6 +2,7 @@ import logo from '../../assets/logo/principal.png'
 import githubImg from '../../assets/contact/github.png'
 import linkedinImg from '../../assets/contact/linkedin.png'
 import emailImg from '../../assets/contact/email1.png'
+import discordImg from '../../assets/contact/discord.png'
 
 import { moveToLink } from '../../utils/functions'
 
@@ -14,11 +15,13 @@ const Redes = () => {
   return (
     <div className='flex flex-col justify-center items-center gap-5'>
         <h3>¡Trabajemos juntos!</h3>
-        <img src={logo} className="h-48 w-48"/>
-        <div id='redes' className='flex flex-row justify-center items-center gap-2'>
-          <button onClick={() => moveToLink(gitHub)} className='w-20 h-20 bg-gradient-to-tr from-[#E1A0E7] to-[#CD60D8] rounded-full flex justify-center items-center'><img src={githubImg} className='w-16 h-16'/></button>
-          <button onClick={() => moveToLink(linkedIn)} className='w-20 h-20 bg-gradient-to-tr from-[#E1A0E7] to-[#CD60D8] rounded-full flex justify-center items-center'><img src={linkedinImg} className='w-16 h-16'/></button>
-          <button onClick={() => moveToLink(mail)} className='w-20 h-20 bg-gradient-to-tr from-[#E1A0E7] to-[#CD60D8] rounded-full flex justify-center items-center'><img src={emailImg} className='w-16 h-16'/></button>
+        <img src={logo} className="h-56 w-56"/>
+        <div className='flex flex-row justify-center items-center gap-2'>
+          <button onClick={() => moveToLink(gitHub)} className='bg-white w-20 h-20 hover:bg-gradient-to-tr from-[#E1A0E7] to-[#CD60D8] rounded-full flex justify-center items-center'><img src={githubImg} className='w-16 h-16'/></button>
+          <button onClick={() => moveToLink(linkedIn)} className='bg-white w-20 h-20 hover:bg-gradient-to-tr from-[#E1A0E7] to-[#CD60D8] rounded-full flex justify-center items-center'><img src={linkedinImg} className='w-16 h-16'/></button>
+          <button onClick={() => moveToLink(mail)} className='bg-white w-20 h-20 hover:bg-gradient-to-tr from-[#E1A0E7] to-[#CD60D8] rounded-full flex justify-center items-center'><img src={emailImg} className='w-16 h-16'/></button>
+          <button className='bg-white w-20 h-20 hover:bg-gradient-to-tr from-[#E1A0E7] to-[#CD60D8] rounded-full flex justify-center items-center'><img src={discordImg} className='w-16 h-16'/></button>
+        
         </div>
     </div>
   )

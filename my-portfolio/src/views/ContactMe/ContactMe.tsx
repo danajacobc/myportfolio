@@ -8,14 +8,9 @@ const ContactMe = () => {
            <h1 className='bg-gradient-to-tr from-[#E1A0E7] to-[#CD60D8] text-transparent bg-clip-text'>Contacto</h1>
         </div>
        
-        <div className="flex flex-col justify-center items-center gap-8">
+        <div className="flex flex-col justify-center items-center gap-8 z-10">
           <Redes /> 
         </div>
-
-          {/* <div className="w-1/2">
-            <FormContact />
-          </div> */}
-        
     </div>
   )
 }
