@@ -10,9 +10,9 @@ module.exports = {
     theme: {
       extend: {
         fontFamily: {
-          display: ["Lato", ...defaultTheme.fontFamily.sans],
-          roboto: ["Roboto Slab", ...defaultTheme.fontFamily.sans],
-          mont: ["Montserrat", ...defaultTheme.fontFamily.sans],
+          display: ["Lato", 'sans-serif'],
+          roboto: ["Roboto Slab", 'sans-serif'],
+          Raleway: ["Raleway", 'sans-serif'],
         }
       },
     },

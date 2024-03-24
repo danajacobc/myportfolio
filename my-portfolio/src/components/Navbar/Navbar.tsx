@@ -7,7 +7,7 @@ const Navbar = () => {
                 <img src={negro} className='rounded-full h-14 w-14'/>
             </div>
             
-            <div className="flex flex-row gap-8">
+            <div className="flex flex-row gap-8 z-10">
                 <a href='#aboutme'>SOBRE MI</a>
                 <a href='#skills'>HABILIDADES</a>
                 <a href='#projects'>PROYECTOS</a>
