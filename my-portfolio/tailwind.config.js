@@ -9,11 +9,7 @@ module.exports = {
     ],
     theme: {
       extend: {
-        fontFamily: {
-          display: ["Lato", 'sans-serif'],
-          roboto: ["Roboto Slab", 'sans-serif'],
-          Raleway: ["Raleway", 'sans-serif'],
-        }
+        fontFamily: {}
       },
     },
     plugins: [],
