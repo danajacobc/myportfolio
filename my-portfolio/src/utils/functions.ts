@@ -28,3 +28,10 @@ export const moveToLink =  (thisLink : string) => {
       console.error('Error al copiar el texto: ', error);
     }
   };
+
+  export const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
