@@ -34,7 +34,7 @@ const AboutMeContent = () => {
               variants={slideInFromLeft(0.5)}
               className='flex justify-end mr-2'>
               <button onClick={() => moveToLink(cvLink)}
-              className='bg-white text-black font-semibold p-3 rounded-sm hover:bg-gradient-to-tr from-[#E1A0E7] to-[#CD60D8]'>Descargar CV</button>
+              className='bg-gradient-to-tr from-[#e8bbec] to-[#E1A0E7] text-black font-semibold p-3 rounded-full hover:bg-gradient-to-tr hover:from-[#E1A0E7] hover:to-[#CD60D8]'>Descargar CV</button>
             </motion.div>
         </div>
         <motion.div

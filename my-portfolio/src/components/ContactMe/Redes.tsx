@@ -16,10 +16,10 @@ const Redes = () => {
   return (
     <div className='flex flex-row justify-center items-center gap-2'>
       
-      <button onClick={() => moveToLink(gitHub)} className='w-20 h-20 bg-gradient-to-tr from-[#E1A0E7] to-[#CD60D8] hover:bg-gradient-to-bl rounded-full flex justify-center items-center'><img src={githubImg} className='w-16 h-16'/></button>
-      <button onClick={() => moveToLink(linkedIn)} className='w-20 h-20 bg-gradient-to-tr from-[#E1A0E7] to-[#CD60D8] hover:bg-gradient-to-bl rounded-full flex justify-center items-center'><img src={linkedinImg} className='w-16 h-16'/></button>
-      <button onClick={() => moveToLink(mail)} className='w-20 h-20 bg-gradient-to-tr from-[#E1A0E7] to-[#CD60D8] hover:bg-gradient-to-bl rounded-full flex justify-center items-center'><img src={emailImg} className='w-16 h-16'/></button>
-      <button onClick={() => copyText(userDiscord)} className='w-20 h-20 bg-gradient-to-tr from-[#E1A0E7] to-[#CD60D8] hover:bg-gradient-to-bl rounded-full flex justify-center items-center'><img src={discordImg} className='w-16 h-16'/></button>
+      <button onClick={() => moveToLink(gitHub)} className='w-20 h-20 bg-gradient-to-tr from-[#e8bbec] to-[#E1A0E7] hover:bg-gradient-to-tr hover:from-[#E1A0E7] hover:to-[#CD60D8] rounded-full flex justify-center items-center'><img src={githubImg} className='w-16 h-16'/></button>
+      <button onClick={() => moveToLink(linkedIn)} className='w-20 h-20 bg-gradient-to-tr from-[#e8bbec] to-[#E1A0E7] hover:bg-gradient-to-tr hover:from-[#E1A0E7] hover:to-[#CD60D8] rounded-full flex justify-center items-center'><img src={linkedinImg} className='w-16 h-16'/></button>
+      <button onClick={() => moveToLink(mail)} className='w-20 h-20 bg-gradient-to-tr from-[#e8bbec] to-[#E1A0E7] hover:bg-gradient-to-tr hover:from-[#E1A0E7] hover:to-[#CD60D8] rounded-full flex justify-center items-center'><img src={emailImg} className='w-16 h-16'/></button>
+      <button onClick={() => copyText(userDiscord)} className='w-20 h-20 bg-gradient-to-tr from-[#e8bbec] to-[#E1A0E7] hover:bg-gradient-to-tr hover:from-[#E1A0E7] hover:to-[#CD60D8] rounded-full flex justify-center items-center'><img src={discordImg} className='w-16 h-16'/></button>
         
     </div>
   )

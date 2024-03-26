@@ -1,7 +1,7 @@
 // imagenes del proyecto
 import poke from '../assets/projects/pokemon.png'
 import tis from '../assets/projects/tis.png'
-import logo from '../assets/logo/fondopantalla-djc.png'
+import portfolio from '../assets/projects/portfolio.png'
 // imagenes de las tecno
 import git from '../assets/skills/git.png'
 import node from '../assets/skills/node-js.png'
@@ -53,11 +53,11 @@ export const projectsArray: MyProjects[] = [
     {
         id: 3,
         name: 'Portfolio Personal',
-        img: logo,
+        img: portfolio,
         description: 'Desarrollo de mi portfolio personal.' ,
-        github: 'https://github.com/danajacobc/PI-pokemon',
-        link: 'https://youtu.be/AN7VSrtOmBc?si=GqUQDkj1zmTTSzAx',
-        deploy: '',
+        github: '',
+        link: '',
+        deploy: 'https://danajacobcasanoves.vercel.app/',
         skills: [ts, reactImg, tailwind, git],
 
     },

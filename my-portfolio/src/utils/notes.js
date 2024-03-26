@@ -76,3 +76,8 @@
 // }
 
 // export default Projects;
+
+
+//STYLE BUTTON
+// className='bg-gradient-to-tr from-[#e8bbec] to-[#E1A0E7] text-black font-semibold p-3 rounded-full hover:bg-gradient-to-tr hover:from-[#E1A0E7] hover:to-[#CD60D8]'
+// bg-gradient-to-tr from-[#e8bbec] to-[#E1A0E7] hover:bg-gradient-to-tr hover:from-[#E1A0E7] hover:to-[#CD60D8]
