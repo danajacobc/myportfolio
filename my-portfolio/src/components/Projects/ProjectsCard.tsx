@@ -17,8 +17,16 @@ const ProjectsCard: React.FC<ProjectProps> = ({project}) => {
           <h2 className='italic font-semibold text-lg text-white'>{project.name}</h2>
           <p className="">{project.description}</p>
           <div className="flex flex-row gap-2">
-            <button onClick={() => moveToLink(project.github)} className='bg-gradient-to-tr from-[#e8bbec] to-[#E1A0E7] text-black font-semibold p-3 rounded-full hover:bg-gradient-to-tr hover:from-[#E1A0E7] hover:to-[#CD60D8]'>GitHub</button>
+            {
+             project.github && project.github !== '' ? 
+             <button onClick={() => moveToLink(project.github)} className='bg-gradient-to-tr from-[#e8bbec] to-[#E1A0E7] text-black font-semibold p-3 rounded-full hover:bg-gradient-to-tr hover:from-[#E1A0E7] hover:to-[#CD60D8]'>Deploy</button>
+             : null
+            }
+            {
+             project.link && project.link !== '' ? 
             <button onClick={() => moveToLink(project.link)} className='bg-gradient-to-tr from-[#e8bbec] to-[#E1A0E7] text-black font-semibold p-3 rounded-full hover:bg-gradient-to-tr hover:from-[#E1A0E7] hover:to-[#CD60D8]'>YouTube</button>
+             : null
+            }
             {
              project.deploy && project.deploy !== '' ? 
             <button onClick={() => moveToLink(project.deploy)} className='bg-gradient-to-tr from-[#e8bbec] to-[#E1A0E7] text-black font-semibold p-3 rounded-full hover:bg-gradient-to-tr hover:from-[#E1A0E7] hover:to-[#CD60D8]'>Deploy</button>
