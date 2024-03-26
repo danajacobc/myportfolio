@@ -39,7 +39,7 @@ const ProjectsCard: React.FC<ProjectProps> = ({project}) => {
         
         {
           project.skills && project.skills.map((skill) => 
-          <div className='flex flex-row gap-2 justify-center items-center rounded-full bg-gradient-to-br from-[#E1A0E7] to-[#AC48B5] h-[80px] w-[80px]'>
+          <div className='flex flex-row gap-2 justify-center items-center rounded-full bg-gradient-to-tr from-[#e8bbec] to-[#E1A0E7] h-[80px] w-[80px]'>
             <img src={skill} className='h-[50px] w-[50px]'/>
           </div>
           )

@@ -8,7 +8,7 @@ const CardSkills: React.FC<SkillProps>= ({skill}) => {
 
   return (
     <div
-        className='flex flex-col gap-2 justify-center items-center rounded-full bg-gradient-to-br from-[#E1A0E7] to-[#AC48B5] h-[140px] w-[140px]
+        className='flex flex-col justify-center items-center gap-2 rounded-full bg-gradient-to-br from-[#E1A0E7] to-[#AC48B5] h-[140px] w-[140px]
         hover:bg-gradient-to-tr'
     >
     
@@ -19,4 +19,4 @@ const CardSkills: React.FC<SkillProps>= ({skill}) => {
   )
 }
 
-export default CardSkills
+export default CardSkills;

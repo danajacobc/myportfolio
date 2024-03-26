@@ -29,7 +29,7 @@ const StarsBackground = (props: any) => {
                 transparent
                 size={0.002}
                 sizeAttenuation={true}
-                dethWrite={false}
+                depthWrite={false}
             />
         </Points>
     </group>
