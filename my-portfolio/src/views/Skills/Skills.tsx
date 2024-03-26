@@ -34,7 +34,7 @@ const Skills = () => {
 
   return (
     <div ref={skillsRef} >
-    <div className="flex flex-col justify-center items-center gap-5">
+    <div className="flex flex-col justify-center items-center gap-10">
         <div className="flex flex-col justify-center items-center font-bold text-2xl ">
            <h1 className='bg-gradient-to-tr from-[#E1A0E7] to-[#CD60D8] text-transparent bg-clip-text'>TECNOLOGÍAS</h1>
         </div>

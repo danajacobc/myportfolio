@@ -18,7 +18,7 @@ const Carrousel = () => {
     const currentProjectData = projectsArray[currentProject];
 
   return (
-    <div className="flex flex-col justify-center items-center relative w-full h-96">
+    <div className="flex flex-col justify-start items-center relative w-full h-96">
         <div
          className="flex transition-transform duration-300 ease-in-out transform"
          style={{
