@@ -8,8 +8,8 @@ const Navbar = () => {
             </div>
             
             <div className="flex flex-row gap-8 z-10">
-                <a href='#aboutme'>SOBRE MI</a>
-                <a href='#skills'>HABILIDADES</a>
+                <a href='#aboutme'>SOBRE MÍ</a>
+                <a href='#skills'>TECNOLOGÍAS</a>
                 <a href='#projects'>PROYECTOS</a>
                 <a href='#contact'>CONTACTO</a>
             </div>
