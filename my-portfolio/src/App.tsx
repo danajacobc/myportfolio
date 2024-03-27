@@ -7,6 +7,7 @@ import Skills from "./views/Skills/Skills";
 import Projects from "./views/Projects/Projects";
 import ContactMe from "./views/ContactMe/ContactMe";
 import ScrollToUp from "./components/Navbar/ScrollToUp";
+import { Analytics } from "@vercel/analytics/react"
 import { useEffect, useState } from "react";
 
 
@@ -35,6 +36,7 @@ function App() {
 
   return (
     <div>
+      <Analytics />
       <StarsCanvas />
       <section id="aboutme">
         <Navbar />
