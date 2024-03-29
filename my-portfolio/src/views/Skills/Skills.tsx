@@ -33,32 +33,29 @@ const Skills = () => {
   }, [isVisible]);
 
   return (
-    <div ref={skillsRef} >
-    <div className="flex flex-col justify-center items-center gap-10">
-        <div className="flex flex-col justify-center items-center font-bold text-2xl ">
-           <h1 className='bg-gradient-to-tr from-[#E1A0E7] to-[#CD60D8] text-transparent bg-clip-text'>TECNOLOGÍAS</h1>
-        </div>
-        <div className="w-3/5">
+    <div ref={skillsRef} className="flex flex-col justify-center items-center gap-10 p-4">
+      <div className="text-center font-bold text-2xl">
+        <h1 className='bg-gradient-to-tr from-[#E1A0E7] to-[#CD60D8] text-transparent bg-clip-text'>TECNOLOGÍAS</h1>
+      </div>
+      <div className="w-full sm:w-4/5 md:w-3/5">
         <motion.ul
-        variants={container}
-        initial="hidden"
-        animate={isVisible ? "visible" : "hidden"} 
-        className="container flex flex-wrap justify-center items-center grid-cols-4 gap-3">
-            {
-              skillsArray.length > 0 ? (
+          variants={container}
+          initial="hidden"
+          animate={isVisible ? "visible" : "hidden"} 
+          className="flex flex-wrap justify-center items-center gap-4 p-4">
+          {
+            skillsArray.length > 0 ? (
               skillsArray.map((sk) =>
-              <motion.li key={sk.name} className="item" variants={item}>
-               <CardSkills skill={sk}/>
-              </motion.li>
-               )
-              ) : <span>Loading skills...</span>
-            }
-            
+                <motion.li key={sk.name} variants={item}>
+                  <CardSkills skill={sk}/>
+                </motion.li>
+              )
+            ) : <span>Loading skills...</span>
+          }
         </motion.ul>
-        </div>
+      </div>
     </div>
-  </div>
-  )
+  );
 }
 
 export default Skills;

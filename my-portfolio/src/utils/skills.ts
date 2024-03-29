@@ -51,7 +51,7 @@ export const skillsArray: Skill[] = [
     img: express,
 },
 {
-    name: "Tailwind CSS",
+    name: "TailwindCSS",
     img: tailwind,
 },
 {
