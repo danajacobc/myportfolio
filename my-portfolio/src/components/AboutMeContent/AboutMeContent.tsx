@@ -11,7 +11,7 @@ const AboutMeContent = () => {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex flex-col md:flex-row w-full justify-center items-center md:gap-8 p-4 md:p-8">
+      className="flex flex-col md:flex-row w-full justify-center items-center md:gap-10 md:p-0">
 
         <motion.div
             variants={slideInFromTop}
