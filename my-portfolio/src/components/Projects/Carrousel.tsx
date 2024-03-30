@@ -39,13 +39,13 @@ const Carrousel = () => {
           </div>
           <div>
             <button
-              className="absolute flex justify-center items-center top-1/2 left-0 transform -translate-y-1/2 px-4 py-2 mx-4 rounded-full bg-gradient-to-br from-[#E1A0E7] to-[#AC48B5] hover:bg-gradient-to-tr transition hover:duration-300 hover:scale-110 ease-in-out h-16 w-16"
+              className="absolute flex justify-center items-center top-1/2 left-0 transform -translate-y-1/2 px-2 py-2 mx-2 rounded-full bg-gradient-to-br from-[#E1A0E7] to-[#AC48B5] hover:bg-gradient-to-tr transition hover:duration-300 hover:scale-110 ease-in-out h-10 w-10 md:h-16 md:w-16"
               onClick={prevProject}
             >
               <img src={arrowl} />
             </button>
             <button
-              className="absolute flex justify-center items-center top-1/2 right-0 transform -translate-y-1/2 px-4 py-2 mx-4 rounded-full bg-gradient-to-br from-[#E1A0E7] to-[#AC48B5] hover:bg-gradient-to-tr transition hover:duration-300 hover:scale-110 ease-in-out h-16 w-16"
+              className="absolute flex justify-center items-center top-1/2 right-0 transform -translate-y-1/2 px-2 py-2 mx-2 rounded-full bg-gradient-to-br from-[#E1A0E7] to-[#AC48B5] hover:bg-gradient-to-tr transition hover:duration-300 hover:scale-110 ease-in-out h-10 w-10 md:h-16 md:w-16"
               onClick={nextProject}
             >
               <img src={arrowr} />
