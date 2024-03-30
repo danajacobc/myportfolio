@@ -33,7 +33,7 @@ const Skills = () => {
   }, [isVisible]);
 
   return (
-    <div ref={skillsRef} className="flex flex-col justify-center items-center gap-10 p-4">
+    <div ref={skillsRef} className="flex flex-col justify-center items-center gap-5 mt-10">
       <div className="text-center font-bold text-2xl">
         <h1 className='bg-gradient-to-tr from-[#E1A0E7] to-[#CD60D8] text-transparent bg-clip-text'>TECNOLOGÍAS</h1>
       </div>
@@ -42,7 +42,7 @@ const Skills = () => {
           variants={container}
           initial="hidden"
           animate={isVisible ? "visible" : "hidden"} 
-          className="flex flex-wrap justify-center items-center gap-4 p-4">
+          className="flex flex-wrap justify-center items-center gap-2">
           {
             skillsArray.length > 0 ? (
               skillsArray.map((sk) =>
