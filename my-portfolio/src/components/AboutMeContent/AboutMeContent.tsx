@@ -5,7 +5,7 @@ import perfil from '../../assets/perfil/p-1.jpg';
 import { moveToLink } from '../../utils/functions';
 
 const AboutMeContent = () => {
-  const cvLink = 'https://drive.google.com/file/d/1I-fQzaIKi3DUXEwOGbKS0EjRcDm6pcUC/view?usp=drive_link';
+  const cvLink = 'https://drive.google.com/file/d/1lKJMGCBF0PAeKTenE4hyrQIteucOfCtV/view?usp=sharing';
   
   return (
     <motion.div
