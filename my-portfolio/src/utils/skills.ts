@@ -10,6 +10,8 @@ import postgreSQL from '../assets/skills/postgre.png'
 import tailwind from '../assets/skills/tailwind.svg'
 import git from '../assets/skills/git.png'
 import mySQL from '../assets/skills/mySQL.png'
+import java from '../assets/skills/java.svg'
+import spring from '../assets/skills/spring.svg'
 
 
 export interface Skill {
@@ -49,6 +51,14 @@ export const skillsArray: Skill[] = [
 {
     name: "Express",
     img: express,
+},
+{
+    name: "Java",
+    img: java,
+},
+{
+    name: "Spring Boot",
+    img: spring,
 },
 {
     name: "TailwindCSS",
